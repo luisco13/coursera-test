@@ -1,21 +1,39 @@
-body{
+*{
     box-sizing: border-box;
 }
+
 section{
     width: 50%;
-    padding: 10px;
     border: 1px;
     float: left;
+    padding: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Pacman_HD.png/1200px-Pacman_HD.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 #sec1{
-    background: blue ;
-    color: white;
+    color: rgb(1, 206, 1);
     font-style: italic;
     text-transform: capitalize;
+
 }
 #sec2{
-    background: red;
-    color: white;
+
+    color: rgb(167, 0, 0);
     font-weight: bold;
     text-transform:initial
+}
+section ul>li:nth-child(2) {
+    color: aqua;
+}
+.Menu li{
+    list-style: none;
+}
+li>a:link, li>a:visited{
+    text-decoration: none;
+    color: green
+}
+a:hover, a:active{
+    color:  yellow;
 }
