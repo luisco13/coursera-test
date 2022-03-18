@@ -8,10 +8,12 @@ body{
 
 }
 h1{
-    font-size: larger 75%;
+    background-color: rgba(0, 197, 10, 0.973);
+    font-size: 175%;
     text-align: center;
     color:rgb(0, 0, 117);
-    border: solid blueviolet 5px;
+    border: solid rgb(171, 99, 238) 5px;
+
 }
 .Box{
     position: relative;
@@ -23,11 +25,12 @@ h1{
 }
 
 .title{
+    font-size: 125%;
     text-align: center;
     background-color:rgb(54, 0, 0) ;
     color: azure;
     border: 1px solid white; 
-    padding: 1% 2% 1% 2%;
+    padding: 1% 7% 1% 7%;
     box-sizing: border-box;
     position: absolute;
     top: 0px; right: 0px;
@@ -40,9 +43,8 @@ h1{
 }
 
 p{
-    font-size: larger 25%;
     clear: both;
-
+    padding: .5%;
 }
 
 #chicken{
