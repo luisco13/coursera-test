@@ -4,32 +4,45 @@
     box-sizing: border-box;
 }
 body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 h1{
+    font-size: larger 75%;
     text-align: center;
-    color:navy;
+    color:rgb(0, 0, 117);
+    border: solid blueviolet 5px;
 }
 .Box{
     position: relative;
-    margin: 40px;
-    padding: 15px;
+    margin: 1% 1.5% 3% 1.5%;
+    padding: 1.5%;
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 .title{
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(54, 0, 0) ;
     color: azure;
-    border-color: white;
     border: 1px solid white; 
-    padding: 5px 10px 5px 10px;
+    padding: 1% 2% 1% 2%;
     box-sizing: border-box;
     position: absolute;
     top: 0px; right: 0px;
 }
 
+.not{
+    float: right;
+    color: transparent;
+    margin: 1%;
+}
+
 p{
-    margin-top: 40px;
+    font-size: larger 25%;
+    clear: both;
+
 }
 
 #chicken{
@@ -52,29 +65,31 @@ p{
     box-sizing: border-box;
 }
 
+ul{
+    margin: 1%;
+    font-style: italic;
+    text-align: center;
+    list-style: none;
+}
+
+
 @media (min-width: 992px){
     .Box{
-        width: 33%;
+        width: 30.3%;
         float: left;
-        margin: 30px;
-        border: 1px solid black ;
     }
     
 }
 
 @media (min-width: 768px) and (max-width: 991px){
     
-    .Box{
-        margin: 30px;
-    }
-
     #chicken, #beef{
-       width: 43%;
+       width: 47%;
        float: left;
        box-sizing: border-box;
    }
     #sushi{
-        width: 100%-60px;
+        width: 97%;
         box-sizing: border-box;
         clear: left;
         
