@@ -2,13 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-transform:capitalize;
 }
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 h1{
-    background-color: rgba(0, 197, 10, 0.973);
+    background-color: rgba(255, 255, 255, 0.973);
     font-size: 175%;
     text-align: center;
     color:rgb(0, 0, 117);
@@ -22,6 +23,7 @@ h1{
     display: block;
     border: 1px solid black;
     box-sizing: border-box;
+    height: 230px;
 }
 
 .title{
@@ -48,21 +50,21 @@ p{
 }
 
 #chicken{
-    background-color: rgb(224, 255, 112);
+    background-color: rgb(234, 253, 165);
     border-color: black;
     box-sizing: border-box;
 }
 
 #beef{
    
-    background-color: rgb(255, 112, 112);
+    background-color: rgb(255, 177, 177);
     border-color: black;
     box-sizing: border-box;
 }
 
 #sushi{
     
-    background-color: rgb(112, 245, 255);
+    background-color: rgb(148, 243, 250);
     border-color: black;
     box-sizing: border-box;
 }
@@ -78,6 +80,7 @@ ul{
 @media (min-width: 992px){
     .Box{
         width: 30.3%;
+        height: 300px;
         float: left;
     }
     
@@ -87,11 +90,13 @@ ul{
     
     #chicken, #beef{
        width: 47%;
+       height: 250px;
        float: left;
        box-sizing: border-box;
    }
     #sushi{
         width: 97%;
+        height: 200px;
         box-sizing: border-box;
         clear: left;
         
