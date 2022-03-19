@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform:capitalize;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.973);
+    font-size: 175%;
+    text-align: center;
+    color:rgb(0, 0, 117);
+    border: solid rgb(171, 99, 238) 5px;
+
+}
+.Box{
+    background-color: rgb(176, 243, 162);
+    color: black;
+    position: relative;
+    margin: 1% 1.5% 3% 1.5%;
+    padding: 1.5%;
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 230px;
+}
+
+
+.not{
+    float: right;
+    color: transparent;
+    margin: 1%;
+}
+
+p{
+    clear: both;
+    padding: .5%;
+}
+
+#chicken, #beef, #sushi{
+    font-size: 125%;
+    text-align: center;
+    background-color:rgb(54, 0, 0) ;
+    color: rgb(0, 32, 73);
+    border: 1px solid white; 
+    padding: 1% 7% 1% 7%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px; right: 0px;
+}
+
+#chicken{
+    background-color: rgb(234, 253, 165);
+    border-color: black;
+    box-sizing: border-box;
+}
+
+#beef{
+   
+    background-color: rgb(255, 177, 177);
+    border-color: black;
+    box-sizing: border-box;
+}
+
+#sushi{
+    
+    background-color: rgb(187, 168, 255);
+    border-color: black;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 1%;
+    font-style: italic;
+    text-align: center;
+    list-style: none;
+}
+
+
+@media (min-width: 992px){
+    .Box{
+        width: 30.3%;
+        height: 300px;
+        float: left;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    #T1, #T2{
+       width: 47%;
+       height: 250px;
+       float: left;
+       box-sizing: border-box;
+   }
+    #T3{
+        width: 97%;
+        height: 200px;
+        box-sizing: border-box;
+        clear: left;
+        
+    }
+}
