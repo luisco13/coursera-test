@@ -49,8 +49,11 @@ h3{
 
 .collapse{
     background-color: rgb(122, 120, 248);
+    width: 100%;
     border-radius: 10px;
     font-size: 18px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .col-md-6 .col-lg-4 .col-sm-12 .col-md-12{
@@ -60,6 +63,7 @@ h3{
 
 .container{
     width: 100%;
+    margin: 0 0 0 0;
     margin-left: auto;
     margin-right: auto;
 }
