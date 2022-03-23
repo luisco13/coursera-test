@@ -28,7 +28,13 @@ h1{
     margin-bottom: 0;
     text-shadow: rgba(204, 204, 204, 0.233);
     text-shadow: 10px;
+    text-align: left;
+    margin-left: 30px;
 
+}
+
+button{
+    margin-right: 30px;
 }
 
 h2{
@@ -47,6 +53,16 @@ h3{
     background-color: rgb(175, 253, 227);
 }
 
+#header-nav{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
 .collapse{
     background-color: rgb(122, 120, 248);
     width: 100%;
@@ -54,6 +70,9 @@ h3{
     font-size: 18px;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin-bottom: -0.5rem;
 }
 
 .col-md-6 .col-lg-4 .col-sm-12 .col-md-12{
@@ -67,7 +86,6 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
-
 
 #chicken, #beef, #sushi{
     margin-bottom: 15px ;
@@ -92,7 +110,6 @@ p{
     box-shadow: 0 1px 5px 1px #cccc;
 
 }
-
 
 @media (max-width:767px){
     #chicken, #beef, #sushi{
